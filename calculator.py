@@ -1,4 +1,4 @@
-a = 1
-b = 2
-c = "/"
+a = input("what is the first number >>")
+b = input("what is the second number >>")
+c = input("what is the operator [+ - * /] >>")
 print(eval(f"{a} {c} {b}"))
