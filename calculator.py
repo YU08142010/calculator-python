@@ -1,6 +1,6 @@
-a = input("what is the first number >>")
+count = input("How many times do you want to use the calculator? >>")
+for _ in range(int(count)):
+    a = input("what is the first number >>")
 b = input("what is the second number >>")
 c = input("what is the operator [+ - * /] >>")
-print(eval(f"{a} {c} {b}"))
-print("hello world")
-print("I want to make a calculator")
+    print(eval(f"{a} {c} {b}"))
